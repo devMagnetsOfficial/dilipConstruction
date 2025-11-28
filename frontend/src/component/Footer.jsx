@@ -26,9 +26,9 @@ export default function Footer() {
           {/* Contact Info */}
           <div className="flex flex-col space-y-2">
             <h3 className="text-lg font-semibold text-light">Contact Us</h3>
-            <p className="text-neutral-light text-sm">📧 info@premiumconstruction.com</p>
-            <p className="text-neutral-light text-sm">📞 +91 123 456 7890</p>
-            <p className="text-neutral-light text-sm">🏢 123 Builder Street, City, Country</p>
+            <p className="text-neutral-light text-sm">📧 dilip.9990923845@gmail.com</p>
+            <p className="text-neutral-light text-sm">📞 +91 9311450431</p>
+            <p className="text-neutral-light text-sm">🏢 Sector 49, Noida / Baraula Gautam Buddha Nagar, Uttar Pradesh</p>
           </div>
 
           {/* Social Media */}

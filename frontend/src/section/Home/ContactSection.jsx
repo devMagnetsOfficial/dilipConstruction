@@ -62,19 +62,18 @@ export default function ContactSection() {
           <div className="space-y-4 text-lg">
             <div>
               <strong className="block mb-1 text-primary-blue">Phone:</strong>
-              <a href="tel:+1234567890" className="hover:text-accent-gold transition-colors">+1 (234) 567-890</a>
+              <a href="tel:+1234567890" className="hover:text-accent-gold transition-colors">+91 9311450431</a>
             </div>
             <div>
               <strong className="block mb-1 text-primary-blue">Email:</strong>
               <a href="mailto:contact@mywebsite.com" className="hover:text-accent-gold transition-colors">
-                contact@mywebsite.com
+               dilip.9990923845@gmail.com
               </a>
             </div>
             <div>
               <strong className="block mb-1 text-primary-blue">Address:</strong>
               <address className="not-italic">
-                123 Main Street, Suite 400<br />
-                Your City, State, ZIP
+                Sector 49, Noida / Baraula <br /> Gautam Buddha Nagar, Uttar Pradesh
               </address>
             </div>
           </div>
