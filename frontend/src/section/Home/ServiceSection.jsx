@@ -1,53 +1,56 @@
 import React from 'react';
 
 export default function ServiceSection() {
-  const services = [
-    {
-      title: "Web Development",
-      description:
-        "Custom full-stack web applications built for performance, scalability, and maintainability.",
-      features: [
-        "Responsive design",
-        "RESTful APIs",
-        "Cloud integration",
-      ],
-      icon: (
-        <svg className="w-12 h-12 mb-4 text-accent-gold" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
-          <path strokeLinecap="round" strokeLinejoin="round" d="M4 4h16v16H4z" />
-        </svg>
-      ),
-    },
-    {
-      title: "UI/UX Design",
-      description:
-        "Engaging and intuitive designs focusing on user experience, accessibility, and brand identity.",
-      features: [
-        "User research & testing",
-        "Wireframing & prototyping",
-        "Brand-consistent interfaces",
-      ],
-      icon: (
-        <svg className="w-12 h-12 mb-4 text-accent-gold" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
-          <circle cx="12" cy="12" r="10" />
-        </svg>
-      ),
-    },
-    {
-      title: "Consulting",
-      description:
-        "Expert advice on digital strategy, project planning, technology selection, and growth.",
-      features: [
-        "Technical audits",
-        "Roadmap planning",
-        "Performance optimization",
-      ],
-      icon: (
-        <svg className="w-12 h-12 mb-4 text-accent-gold" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
-          <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3" />
-        </svg>
-      ),
-    },
-  ];
+ const services = [
+  {
+    title: "POP Ceiling Work",
+    description:
+      "High-quality POP false ceiling designs for modern homes, offices, and commercial spaces. Durable, smooth, and premium finishing.",
+    features: [
+      "Custom false ceiling designs",
+      "Lighting-friendly patterns",
+      "Crack-free smooth finishing",
+    ],
+    icon: (
+      <svg className="w-12 h-12 mb-4 text-accent-gold" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M3 7h18M3 17h18M5 7v10M19 7v10" />
+      </svg>
+    ),
+  },
+
+  {
+    title: "House Construction",
+    description:
+      "Complete residential building construction with strong structural work and high-quality materials for long-term durability.",
+    features: [
+      "Foundation & structural work",
+      "Brickwork & plastering",
+      "Finishing & supervision",
+    ],
+    icon: (
+      <svg className="w-12 h-12 mb-4 text-accent-gold" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M3 12l9-9 9 9M5 10v10h14V10" />
+      </svg>
+    ),
+  },
+
+  {
+    title: "Interior Work",
+    description:
+      "Professional interior finishing including painting, wall designing, wooden work, lighting setup, and renovation.",
+    features: [
+      "Painting & wall decoration",
+      "Modular interior solutions",
+      "Renovation & repair work",
+    ],
+    icon: (
+      <svg className="w-12 h-12 mb-4 text-accent-gold" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3" />
+      </svg>
+    ),
+  },
+];
+
 
   return (
     <section id="services" className="py-24 px-6 bg-gradient-to-r from-neutral-light via-light to-neutral-light">

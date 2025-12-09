@@ -60,7 +60,7 @@ export default function Gallery() {
       <p className="text-lg md:text-xl text-neutral-dark text-center max-w-4xl mx-auto mb-12">
         Explore some of our premium construction projects. Each image represents the quality, craftsmanship, and innovation we deliver.
       </p>
-
+      
       {/* Gallery Grid */}
       <div className="max-w-7xl mx-auto grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {currentImages.map((img, index) => (
